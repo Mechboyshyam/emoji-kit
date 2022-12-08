@@ -1,0 +1,47 @@
+.emoji-container{
+    margin: 0;
+    
+}
+
+.title{
+    color: #9668f5;
+    font-size: 40px;
+    text-align: center;
+}
+
+.emoji-display{
+    display: block;
+    width: 15%;
+    background-color: #9668f5;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 10%;
+    padding: 60px 10px 60px 10px;
+    font-size: 80px;
+    border-radius: 15px;
+    margin-top: 60px;
+}
+
+.emoji-list{
+    display: flex;
+    height: 100%;
+    background-color: #9668f5;
+    margin-top: 60px;
+    width: 30%;
+    text-align: center;
+    justify-content: space-evenly;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.emoji{
+    font-size: 40px;
+    padding: 15px;
+}
+
+.emoji:hover{
+    transform: scale(1.2);
+}
