@@ -4,31 +4,45 @@
 }
 
 .title{
-    color: #9668f5;
+    color: #5704a0;
+    background-color: black;
     font-size: 40px;
     text-align: center;
+    border-radius: 15px;
+}
+
+.flex-1{
+    margin-left: 5rem;
 }
 
 .emoji-display{
     display: block;
-    width: 15%;
-    background-color: #9668f5;
+    width: 100%;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    height: 10%;
-    padding: 60px 10px 60px 10px;
-    font-size: 80px;
+    height: 70%;
+    padding: 0;
     border-radius: 15px;
-    margin-top: 60px;
+}
+
+.display{
+    border: 1px solid white;
+}
+
+h2{
+    color: #6e4fef;
+    background-color: black;
+    border-radius: 15px;
+    margin-left: 0.7rem;
 }
 
 .emoji-list{
     display: flex;
-    height: 100%;
+    height: 20%;
     background-color: #9668f5;
-    margin-top: 60px;
-    width: 30%;
+    margin-top: 40px;
+    width: 100%;
     text-align: center;
     justify-content: space-evenly;
     border-radius: 15px;
@@ -38,11 +52,67 @@
 }
 
 .emojii{
-    font-size: 40px;
+    font-size: 35px;
     padding: 15px;
 }
 
 .emojii:hover{
     transform: scale(1.2);
     cursor: pointer;
+}
+
+.d-flex{
+    display:flex ;
+}
+
+.bg-btn{
+    text-align: center;
+    margin: 0.4rem;
+    padding: 0.4rem;
+    color: #5704a0;
+    border-radius: 1rem 1rem 0rem 0rem;
+    cursor: pointer;
+    border: 1px solid #5704a0;
+}
+
+.bg-btn:hover{
+    transform: scale(1.1);
+}
+
+.flex-2{
+    margin-left: 3rem;
+}
+
+.clr-list{
+    display: flex;
+    justify-content: space-evenly;
+    width: 110%;
+    border-radius: 1rem 1rem ;
+}
+
+.clr-green{
+    color: green;
+}
+
+.clr-yellow{
+    color: yellow;
+}
+
+.clr-purple{
+    color: purple;
+}
+
+.clr-orange{
+    color: orange;
+}
+
+.clr-pink{
+    color: pink;
+}
+
+.Increase-size{
+    color:#6e4fef;
+    font-size: 25px;
+    margin-top: 03rem;
+    margin-left: 0.8rem;
 }
