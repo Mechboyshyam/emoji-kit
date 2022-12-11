@@ -52,7 +52,7 @@ h2{
 
 .emojii{
     font-size: 35px;
-    padding: 15px;
+    margin-top: 0.5rem;
 }
 
 .emojii:hover{
@@ -60,10 +60,7 @@ h2{
     cursor: pointer;
 }
 
-.d-flex{
-    display:flex ;
-    margin-left: 9rem;
-}
+
 
 
 .button{

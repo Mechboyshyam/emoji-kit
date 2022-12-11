@@ -5,6 +5,7 @@ function App() {
   const [bgcolor, setbgcolor] = useState("")
   const [emojisize, setemojisize] = useState(30)
   const [emodeg, setemodeg] = useState(0);
+ 
 
   return (
     <div className="emoji-container">
@@ -51,7 +52,9 @@ function App() {
 
       </div>
       <div className='button'>
-        <button>Click here to see magic🤣</button>
+          <button>
+            Thank You...
+          </button>
       </div>
 
 
